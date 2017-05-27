@@ -1,0 +1,28 @@
+div#map{
+  width: 100%;
+  height: 90vh;
+}
+
+div#buscador{
+  background: #f7b617;
+  color: white;
+}
+
+.form-control{
+  display: inline-block;
+  width: 30%;
+  background:  transparent;
+  border: white solid 2px;
+}
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+.form-control:-moz-placeholder {
+  color: white;
+}
+.form-control::-moz-placeholder {
+  color: white;
+}
+.form-control:-ms-input-placeholder {
+  color: white;
+}

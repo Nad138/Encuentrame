@@ -26,3 +26,6 @@ div#buscador{
 .form-control:-ms-input-placeholder {
   color: white;
 }
+input[type="text"]{
+  color:#fff;
+}

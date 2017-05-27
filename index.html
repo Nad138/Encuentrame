@@ -12,13 +12,13 @@
     <div id="buscador" class="row">
       <div class="col-xs-10">
         <label class="glyphicon glyphicon-record"></label>
-        <div class="col-4">
+
           <input class="form-control" type="text" id="punto-partida" value="" placeholder="Ingresa tu punto de partida">
-        </div>
+
         <label class="glyphicon glyphicon-send"></label>
-        <div class="col-4">
+
           <input class="form-control" type="text" id="punto-destino" value="" placeholder="Ingresa tu destino">
-        </div>
+
       </div>
       <div class="col-xs-2">
         <button type="submit" class="btn btn-default"name="button" id="trazar-ruta">Trazar ruta</button>
@@ -28,6 +28,9 @@
 
   </div>
   <div id="map"></div>
+  <div id="tarifa">
+
+  </div>
   <script src="assets/js/main.js" charset="utf-8"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCggHFUL-v6lMEWpykkEEmqaDwqzcS3ASs&callback=initMap&libraries=places"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
